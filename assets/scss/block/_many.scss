@@ -1,0 +1,122 @@
+.fa {
+    width: 55px;
+    height: 55px;
+    background-color: #FFECEC;
+    color: #F53838;
+    border-radius: 50px;
+}
+
+.fa {
+    display: flex;
+    padding-left: 21px;
+    padding-top: 21px;
+
+}
+
+.mama {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.hrbek {
+    width: 2px;
+    height: 125px;
+    background-color: #EEEFF2;
+    margin-left: 130px;
+}
+
+
+.dada {
+    margin-top: 105px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    width: 1160px;
+    height: 200px;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 20px;
+}
+
+.pilus {
+    font-family: Rubik-Bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+}
+
+.user {
+    font-family: Rubik-Regular;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+@media (max-width:1130px) {
+    .dada {
+        display: none;
+    }
+
+}
+
+.many {
+    font-family: Rubik-Medium;
+    font-size: 35px;
+    line-height: 50px;
+    padding-top: 150px;
+}
+
+.can {
+    font-family: Rubik-regular;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 20px;
+    color: #4F5665;
+}
+
+.one {
+    display: flex;
+padding-top: 15px;
+    gap: 10px;
+    font-family: Rubik-regular;
+    font-size: 14px;
+}
+
+.main-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 160px;
+}
+
+.asse {
+    margin-top: 95px;
+}
+
+.ticklar {
+    padding-top: 20px;
+    align-items: center;
+    gap: 10px;
+    font-family: Rubik-regular;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+    align-items: center;
+}
+@media (max-width:1000px) {
+    .main-2{
+    display: block;}
+    .asse{
+    display: flex;
+justify-content: center;}
+.many{
+text-align: center;
+}
+.can{
+text-align: center;}
+.one{
+    display: flex;
+    justify-content: center;
+}
+}

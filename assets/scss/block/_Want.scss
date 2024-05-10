@@ -1,0 +1,102 @@
+.tobe {
+    font-family: Rubik-Medium;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 120px;
+
+}
+
+.von {
+    font-family: Rubik-Bold;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.vpn {
+    font-family: Rubik-Medium;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.all {
+    font-family: Rubik-Regular;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 20px;
+    color: #4F5665;
+}
+
+.get {
+    padding: 17px 77px;
+    border-radius: 10px;
+    border: none;
+    font-family: Rubik-Bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    background-color: #F53838;
+    margin-top: 50px;
+}
+
+.bob {
+    display: none;
+}
+
+.get:hover {
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.main-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bobo {
+    padding-top: 100px;
+}
+
+@media (max-width:1165px) {
+    .main-1 {
+
+        display: block;
+    }
+
+    .tobe {
+        text-align: center;
+    }
+
+    .all {
+        text-align: center;
+
+    }
+
+    .bobo {
+        display: none;
+    }
+
+    .get {
+        display: flex;
+        margin-top: 80px;
+        margin: auto;
+    }
+
+    .bob {
+
+        display: block;
+        display: flex;
+        justify-content: center;}}
+
+        @media (max-width:750px) {
+        .bob{
+width: 500px;
+display: flex;
+margin-top: 80px;
+margin: auto;
+        }
+        }
+        
+        @media (max-width:550px) {
+        .bob{
+        width: 200px;}
+        }
